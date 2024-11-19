@@ -1,0 +1,110 @@
+/* general-start */
+:root{
+    --basic-color:#ffc451;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    color: white;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffffb3;
+}
+
+a span{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffffb3;
+}
+
+strong{
+    font-weight:900;
+    font-size: 30px;
+    color: var(--basic-color);
+}
+/* general-end */
+
+/* hero-start */
+.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/hero2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .form-control:focus,.form-select:focus{
+  box-shadow:0 0 0 .25rem rgba(214, 216, 109, 0.863);
+}
+h1 span{
+    color: var(--basic-color);
+    font-size: 56px;
+}
+.hero .item{
+    padding: 20px 30px;
+    border: 1px solid #ffffffb3;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.hero i{
+    color: #ffc451;
+    font-size: 32px;
+}
+
+.hero .item:hover{
+    border:1px solid #ffc451;
+}
+
+.hero #btn-addidea{
+    background-color: transparent;
+    border:2px solid var(--basic-color);
+    color: white;
+}
+
+.hero #btn-addidea:hover{
+    background-color: var(--basic-color);
+    
+}
+
+.hero #btn-editidea{
+    background-color: transparent;
+    border:2px solid orangered;
+    color: white;
+}
+
+.hero #btn-editidea:hover{
+    background-color: orangered;
+    
+}
+/* hero-end */
+
+/* ideas-table start  */
+.ideas-table i{
+    color: white;
+}
+/* ideas-table end  */
